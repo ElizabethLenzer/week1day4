@@ -1,8 +1,5 @@
-.MainPage{
-    /* display: inline-flex; */
-}
+
 .Body{
-    display: flex;
     width: 100%;
 }
 .Navigation{
@@ -37,15 +34,18 @@ h1{
     background: rgb(237,255,8);
     background: radial-gradient(circle, rgba(237,255,8,1) 0%, rgba(7,255,52,1) 100%);
     border-radius: 20px;
-    height: 25px;
+    height: 30px;
     border-color: chartreuse;
     display: inline-block;
     font-size: large;
     font-family: cursive;
 }
+#Body{
+    margin: 0px;
+}
 .Card{
     background-color:purple;
-    width: 25%;
+    width: 50%;
     /* height: 100%; */
     border-style: solid;
     border-color: black;
@@ -56,7 +56,7 @@ h1{
     /* right: 50px; */
 }
 .Header1{
-    height: 200px;
+    height: 100px;
     background-color: aqua;
     display: flex;
     top: 0px;
@@ -67,23 +67,23 @@ h1{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,4,149,1) 43%, rgba(40,218,254,1) 100%);
     border-radius: 100px;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 20px;
-    right: 10px;
-    margin-top: 110px;
-}
-.Gojo{
     height: 150px;
     width: 150px;
     position: absolute;
     left: 50px;
-    margin-top: 130px;
+    right: 10px;
+    margin-top: 10px;
+}
+.Gojo{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 70px;
+    margin-top: 30px;
 }
 .Content1{
-    height: 275px;
-    padding-top: 150px;
+    /* height: 275px; */
+    padding-top: 100px;
     padding-left: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -110,7 +110,20 @@ h1{
     height: 25px;
 }
 .Column1{
-    background-color: crimson;
-    height: 30%;
+    background-color: rgb(233, 20, 222);
     border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
 }
+.Header2{
+    height: 50px;
+    background-color: aqua;
+    top: 0px;
+    border-radius: 20px;
+    position: relative;
+    color: darkblue;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
