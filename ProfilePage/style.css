@@ -1,6 +1,34 @@
+body{
+    background-color: rgb(53, 49, 49);
+    margin: 0px;
+}
+#Body{
+    margin: 0px;
+}
+.Container{
+    display: flex;
+}
+.Main{
+    height: 700px;
+}
+.Justify-Center{
+    justify-content: center;
+}
+.Columns{
+    width: 80%;
+}
+.Col-1{
+    flex: 1;
+    margin: 20px;
+}
 
-.Body{
-    width: 100%;
+.Col-2{
+    flex: 2;
+    margin: 20px;
+}
+
+.Col-3{
+    flex: 3;
 }
 .Navigation{
     height: 50px;
@@ -10,7 +38,7 @@
     align-items: center;
     padding: 10px;
     justify-content: start;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
 }
 .Title{
     padding-right: 550px;
@@ -38,24 +66,25 @@ h1{
     border-color: chartreuse;
     display: inline-block;
     font-size: large;
-    font-family: cursive;
+    font-family: cursive;}
+
+.UserCard{
+    height: 100%;
+    background-color: rgb(9, 1, 27);
 }
-#Body{
-    margin: 0px;
+.Connections{
+    height: 100%;
+    background-color: rgb(245, 12, 12);
 }
-.Card{
+.Profile{
     background-color:purple;
-    width: 50%;
-    /* height: 100%; */
+    width: 100%;
     border-style: solid;
     border-color: black;
-    position: absolute;
-    /* left: 20%; */
     border-radius: 20px;
     padding: 10px;
-    /* right: 50px; */
 }
-.Header1{
+.Header{
     height: 100px;
     background-color: aqua;
     display: flex;
@@ -70,19 +99,16 @@ h1{
     height: 150px;
     width: 150px;
     position: absolute;
-    left: 50px;
-    right: 10px;
     margin-top: 10px;
 }
 .Gojo{
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 70px;
+    left: 12%;
     margin-top: 30px;
 }
-.Content1{
-    /* height: 275px; */
+.Content{
     padding-top: 100px;
     padding-left: 20px;
     border-bottom-left-radius: 20px;
@@ -109,21 +135,43 @@ h1{
     border-radius: 20px;
     height: 25px;
 }
-.Column1{
-    background-color: rgb(233, 20, 222);
+.Education{
+    background-color:purple;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
     border-radius: 20px;
-    width: 50%;
     padding: 10px;
-    align-items: center;
 }
-.Header2{
-    height: 50px;
-    background-color: aqua;
-    top: 0px;
-    border-radius: 20px;
-    position: relative;
-    color: darkblue;
+.Details{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    justify-content: center;
+    color: white;
+}
+#Education{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.Connections{
+    background-color:purple;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.ConnectionsRequest{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.YourConnections{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
